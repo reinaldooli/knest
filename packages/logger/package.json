@@ -6,7 +6,7 @@
     "homepage": "https://github.com/reinaldooli/knest",
     "repository": {
         "type": "git",
-        "url": "https://github.com/reinaldooli/knest"
+        "url": "git+https://github.com/reinaldooli/knest.git"
     },
     "bugs": {
         "url": "https://github.com/reinaldooli/knest/issues"
@@ -17,15 +17,19 @@
     "license": "MIT",
     "devDependencies": {
         "@nestjs/common": "^7.3.1",
-        "@types/luxon": "^1.24.1",
         "@types/mkdirp": "^1.0.1",
+        "@types/node": "^14.0.20",
         "rxjs": "^6.6.0"
     },
     "dependencies": {
-        "luxon": "^1.24.1",
         "mkdirp": "^1.0.4",
         "reflect-metadata": "^0.1.13",
         "winston": "^3.3.3",
         "winston-daily-rotate-file": "^4.5.0"
-    }
+    },
+    "keywords": [
+        "nest",
+        "log",
+        "logger"
+    ]
 }

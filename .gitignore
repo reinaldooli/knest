@@ -5,3 +5,13 @@
 dist
 node_modules
 log
+
+# bundle
+packages/**/*.d.ts
+packages/**/*.js
+
+# misc
+.DS_Store
+/**/npm-debug.log
+/packages/**/.npmignore
+/packages/**/LICENSE
